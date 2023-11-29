@@ -3,7 +3,7 @@ import os
 import cv2
 from keras.models import model_from_json
 
-os.chdir("C:/Users/soham/OneDrive/Desktop/face_detector")
+os.chdir("./Emotion-Recognizer")
 
 emotions = {0:'Angry', 1:'Disgusted', 2:'Fearful', 3:"Happy", 4:"Neutral", 5:"Sad", 6:"Surprised"}
 
